@@ -43,14 +43,11 @@ label{
 }
 option{
     color:#3D087BDE ; 
+    background-color: #FFFFFF;
 }
 select{
     background-color: #FFFFFF;
     color:#3D087BDE ; 
-}
-option{
-    background-color: #FFFFFF;
-
 }
 .card1, .card2, .card3, .card4{
     width: 95%;
@@ -243,5 +240,12 @@ button:hover{
     section{
         display: flex;
         flex-direction: column;
+    }
+    .img{
+        height: 30px;
+    }
+    .card1, .card2, .card3, .card4{
+        font-size: 15px;
+        grid-template-columns: 10% 45% 45%;
     }
 }
