@@ -248,4 +248,8 @@ button:hover{
         font-size: 15px;
         grid-template-columns: 10% 45% 45%;
     }
+    .leftthreerow{
+        display: flex;
+        flex-direction: column;
+    }
 }
